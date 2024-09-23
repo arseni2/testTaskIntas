@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tests</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <script defer src="./js/dist/script.js"></script>
+    <script defer src="./js/dist/testDetail.js"></script>
+</head>
+<body>
+<h1>TESTS</h1>
+
+<main>
+    <header>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="sidebar">
+            <ul>
+                <a class="sidebar_item" href="/1.html">
+                    <span class="circle"></span>
+                    <li>Test's name</li>
+                </a>
+
+                <a class="active sidebar_item" href="/2.html">
+                    <span class="circle"></span>
+                    <li class="active">Another Test</li>
+                </a>
+
+                <a class="sidebar_item" href="/3.html">
+                    <span class="circle"></span>
+                    <li>Test</li>
+                </a>
+
+                <a class="sidebar_item" href="/4.html">
+                    <span class="circle"></span>
+                    <li>Название теста</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main_content" style="display: block">
+        <div class="subheader">
+
+        </div>
+
+        <div class="pxy-16px">
+            <div id="test-result" style="display: none;">
+                <h2 id="result-title">Тест завершён</h2>
+                <p id="result-summary"></p>
+                <div id="questions-list"></div>
+                <div class="subheader_hr"></div>
+                <button id="retry-btn" class="form_control_button button-retry" data-redirect-url="/1_form.html">Пройти ещё раз</button>
+            </div>
+
+            <div id="start-description">
+                <p class="test_description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper volutpat tristique. Fusce et nunc porttitor, pretium urna at, sagittis purus. Nullam sagittis congue sapien non sodales. Aliquam vel condimentum lacus, sit amet feugiat velit. Suspendisse congue imperdiet dui, sit amet cursus mi viverra sed. Nam porttitor venenatis vehicula. Vestibulum sed arcu vel lorem venenatis tempor.
+                </p>
+
+                <div class="flex pt-20px gap-20px">
+                    <a href="/2_form.html">
+                        <button class="button-primary">Начать</button>
+                    </a>
+                    <a href="/">
+                        <button class="button-secondary">Отмена</button>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+
+<footer>
+    <p>2020 © INTAS-Company.com</p>
+</footer>
+</body>
+</html>
