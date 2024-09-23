@@ -1,5 +1,5 @@
 # Запуск
-''' 
+'''
 cd testTaskIntas
 '''
 
